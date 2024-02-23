@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Procurar cep</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="Imagens/1280px-Correios_(1990).svg.png" alt="" id="correio-pp">
+            <div class="box-busca">
+                <div class="search-box"> 
+                    <form id="searchForm">
+                        <input type="text" class="search-box-input" name="busca" id="searchInput" placeholder="Faça sua Pesquisa">
+                        <button type="submit" class="search-box-button" onclick="search()"><i class="search-box-icone icon icon-search">🔎</i></button>
+                    </form>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="section-main-content">
+            <img src="Imagens/imagem_2024-02-23_090828559-removebg-preview.png" alt="">
+            <div class="search-cep">
+                <h1>Consulta de CEP</h1>
+                <div class="search">
+                    <input type="text" placeholder="Digite o cep" id="cepInput">
+                    <button onclick="buscarEndereco()" id="buscar">Buscar</button>
+                    <div id="endereco"></div>
+                    <div><img src="Imagens/i381158.jpeg" alt="" id="map" onclick="open_map()"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
