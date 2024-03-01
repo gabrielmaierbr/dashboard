@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+</head>
+<body>
+    <header class="header">
+        <div class="div-header">
+            <div class="nav-logo">
+                <span id="lateral-nav-bar-icon" onclick="openNav()">&#9776;</span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#" class="nav-bar-op">
+                            <div class="flex-container"><img src="imagens/home.png" id="icon" alt="" class="start">Inicio</div>
+                        </a>
+                    <a href="#" class="nav-bar-op">
+                        <div class="flex-container"><img src="imagens/subscribe.png" id="icon" alt="" class="subscribe">Inscrições</div>
+                    </a>
+                    <a href="#" class="nav-bar-op">
+                        <div class="flex-container"><img src="imagens/clock.png" id="icon" alt="" class="shorts">Shorts </div>
+                    </a>
+                    <a href="#" class="nav-bar-op">
+                        <div class="flex-container"><img src="imagens/direction.png" id="icon" alt="" class="explore">Explorar </div>
+                    </a>
+                    <hr>
+                    
+                </div>
+                <img src="imagens/youtube-logo-light.png" alt="" id="header-pic">
+            </div>
+            <form id="form" onsubmit="return search()"> 
+                <input type="search" id="query" name="q" placeholder="Pesquisa" class="search-box-input">
+                <button id="search-bt" type="submit onclick="search()"><img src="imagens/magnifying-glass.png" alt="" id="bt-img"></button>
+            </form> 
+            <div class="style-scope">
+                
+                <div class="container">
+                    <img src="imagens/dots.png " alt="" id="dot-pic">
+                    <div id="nav-menu">
+                        <p id="theme-title">Tema do Site</p>
+                        <div>
+                            <button onclick="LightMode()" id="light" class="theme-bt">Light</button>
+                            <button onclick="DarkMode()" id="dark" class="theme-bt">Dark</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="start-session">
+                    <img src="imagens/user (2).png" alt="" id="login-pic">
+                    <p>Iniciar sessão</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content" id="content">
+        <div class="video-grid" id="video-grid">
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/xD5No_JRrZw/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDjFjxO14BQOUcf5BrFUfyWKSGdNA" alt="" class="video-thumb" onclick="abrirLink(1)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.ggpht.com/ytc/AIdro_mDxCeSJUTwAMRJ99bm6bNgPP9Lk_hmB3wWB8tVqg=s68-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Type O Negative - Love You To Death [OFFICIAL VIDEO]</p>
+                        <p class="acc-name">RoadrunnerRecords <br> 
+                            893.342.854 visualizações </p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/LD2i99QPVI0/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4FgALQBYoCDAgAEAEYfyAdKEAwDw==&rs=AOn4CLBqIQAEGrs87RvVxFiqoJBtmebXGA
+                " alt="" class="video-thumb"  onclick="abrirLink(2)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.ggpht.com/7EmcGiU_mj_nzwD9LBv_xgxOxOZtLrNu-ZygbDiPFI379crZ4ngypvakFF8PoGepCV8tCK3N=s88-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">EMI (Remastered 2012)</p>
+                        <p class="acc-name">Sex Pistols Official<br> 
+                            777.352.834 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/vx2u5uUu3DE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDNn5Dd0GZjeY3zV8dfY_lENHI--g" alt="" class="video-thumb"  onclick="abrirLink(3)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/jceQvFYbyBiu1A-VcKB9k_zgXH_8oS1cnKHNq6Lm97Km5pm5k1HWu_o2_b9SMcUalJcCtPwUfck=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Bon Jovi - It's My Life (Official Music Video)</p>
+                        <p class="acc-name">Bon Jovi<br> 
+                            2.587.332.898 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/lDK9QqIzhwk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCNZbtRBihWHULxiEcO3voaKtr0RA
+                " alt="" class="video-thumb"  onclick="abrirLink(4)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/jceQvFYbyBiu1A-VcKB9k_zgXH_8oS1cnKHNq6Lm97Km5pm5k1HWu_o2_b9SMcUalJcCtPwUfck=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Bon Jovi - Livin' On A Prayer</p>
+                        <p class="acc-name">Bon Jovi<br> 
+                            997.332.898 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/8SbUC-UaAxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD9gk8p8PkZ0C8clGa-TZQifeNLpw
+                " alt="" class="video-thumb"  onclick="abrirLink(5)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/XYdITfFzeQBLoNsIIpthkC1jfK9r-jVijx_ULuralq1KaN35Z_tJdgyoB9O-eSCm_NdEgN1E-Ok=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Guns N' Roses - November Rain</p>
+                        <p class="acc-name">Guns N' Roses<br> 
+                            1.987.435.878 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/1w7OgIMMRc4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDitnhELjwcxf4ib6TJSJ8qpW-O_Q
+                " alt="" class="video-thumb"  onclick="abrirLink(6)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/XYdITfFzeQBLoNsIIpthkC1jfK9r-jVijx_ULuralq1KaN35Z_tJdgyoB9O-eSCm_NdEgN1E-Ok=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Guns N' Roses - Sweet Child O' Mine (Official Music Video)</p>
+                        <p class="acc-name">Guns N' Roses<br> 
+                            667.562.898 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/Rbm6GXllBiw/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAcDgPX79VaiQmZiD02DMQKXlbKOQ
+                " alt="" class="video-thumb"  onclick="abrirLink(7)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/XYdITfFzeQBLoNsIIpthkC1jfK9r-jVijx_ULuralq1KaN35Z_tJdgyoB9O-eSCm_NdEgN1E-Ok=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Guns N' Roses - Paradise City (Official Music Video)</p>
+                        <p class="acc-name">Guns N' Roses<br> 
+                            787.332.898 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="video">
+                <img src="https://i.ytimg.com/vi/o1tj2zJ2Wvg/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCJw7CnnGJwMXGTnJiGFfCIZrUoTw
+                " alt="" class="video-thumb"  onclick="abrirLink(8)">
+                <div class="video-details">
+                    <div class="img-pp"><img src="https://yt3.googleusercontent.com/XYdITfFzeQBLoNsIIpthkC1jfK9r-jVijx_ULuralq1KaN35Z_tJdgyoB9O-eSCm_NdEgN1E-Ok=s176-c-k-c0x00ffffff-no-rj" alt="" class="account-pp"></div>
+                    <div class="video-n-acc"> 
+                        <p class="video-name">Guns N' Roses - Welcome To The Jungle</p>
+                        <p class="acc-name">Guns N' Roses<br> 
+                            1.587.332.898 visualizações</p>
+                    </div>   
+                </div>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
