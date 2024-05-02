@@ -1,3 +1,5 @@
+//Victor Reis
+
 
 function getEmail() {
     return new Promise((resolve, reject) => {

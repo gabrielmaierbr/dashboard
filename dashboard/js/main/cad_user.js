@@ -1,3 +1,5 @@
+//Gabriel Dutra 
+
 
 const sidebar = document.getElementById('sidebar');
 const meobileMenu = document.getElementsByClassName('mobileMenu');

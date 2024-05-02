@@ -1,3 +1,5 @@
+//Arthur Pacheco
+
 google.charts.load('current', {'packages':['corechart']});
 
 google.charts.setOnLoadCallback(drawChartPizza);
