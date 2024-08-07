@@ -1,27 +1,27 @@
 
 <h1 align="center">BluePen - Dashboard</h1>
 
-_BluePen - Dashboard_ é um _software_ desenvolvido e pensado para atender a demanda do mercado sobre softwares de gerenciamento de seus clientes para ter um melhor controle de seus ganhos. 
+BluePen - Dashboard é um _software_ desenvolvido e pensado para atender a demanda do mercado sobre softwares de gerenciamento de seus clientes para ter um melhor controle de seus ganhos. 
 
 
 ## Tecnologias Utilizadas
 
-- `HTML`:
+- `HTML`
     - HTML, ou _HyperText Markup Language_, é a linguagem de marcação utilizada para criar páginas _Web_. Ele fornece uma estrutura básica para organizar o conteúdo da página, usando _Tags_ para definir elementos como cabeçalhos, parágrafos, imagens, _links_ e listas.
 
-- `CSS`:
+- `CSS`
     - CSS, ou _Cascading Style Sheets_, é uma linguagem de estilo utilizada para controlar a apresentação visual de páginas web escritas em HTML. Com o CSS, é possível definir o layout, as cores, as fontes, o espaçamento e outros aspectos visuais de elementos HTML, separando assim o conteúdo da sua apresentação.
 
-- `JavaScript`:
+- `JavaScript`
     - JavaScript é uma linguagem de programação utilizada principalmente no desenvolvimento _Web_ para tornar as páginas interativas e dinâmicas. Com JavaScript, é possível controlar o comportamento dos elementos HTML, responder a eventos do usuário, manipular dados e modificar o conteúdo da página em tempo real. 
 
-- `FireBase`:
+- `FireBase`
     - FireBase é uma plataforma de desenvolvimento de aplicativos móveis e _Web_ fornecida pelo Google. Ele oferece uma variedade de serviços prontos para uso, incluindo armazenamento em nuvem em tempo real, autenticação de usuários, análise, testes de aplicativos, mensagens e muito mais.
 
-- `Google Chart`:
+- `Google Chart`
     - O Google Charts é uma ferramenta de visualização de dados desenvolvida pelo Google, que permite criar gráficos interativos e personalizáveis para exibir informações de maneira visualmente atraente em páginas da web.
 
-- `Node.js`:
+- `Node.js`
     - Node.js é um ambiente de tempo de execução JavaScript de código aberto, construído sobre o motor V8 do Google Chrome. Ele permite que os desenvolvedores executem código JavaScript no lado do servidor, em vez de apenas no navegador, o que o torna ideal para desenvolvimento de aplicativos web escaláveis e em tempo real.
 
   
@@ -33,11 +33,11 @@ Nossas mains fazem sua função de tela home, exibindo em seu painel as deashboa
 
 ## Explorando nosso Projeto
 
-- `Funcionalidades ADM`:
+- `Funcionalidades ADM`
     - O administrador tem o monitoramento por meios de graficos para saber o número de adiministradores, números de usuários, números de clientes, de usuário e os planos de cada usuário registrado.
     - O administrador pode adicionar usuário, editar e remover.
 
-- `Funcionalidades do Cliente`:
+- `Funcionalidades do Cliente`
     - O cliente consegue visualizar gráficos que mostram a quantidade de usuários cadastrados e os planos de cada cliente.
 
 
