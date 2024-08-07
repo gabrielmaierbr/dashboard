@@ -27,8 +27,8 @@ BluePen - Dashboard é um _software_ desenvolvido e pensado para atender a deman
   
 ## Como foram feitas as telas?
 
-Usando linguagem de marcação HTML para aderir os elementos na tela e linguagem de estilização CSS criamos nossas telas semânticas, responsivas e bem estilizadas. Iniciamos com nossa _index_, uma tela de login conectada ao FireBase para fazer a validação das informações passadas pelo usuário, em seguida temos as nossas mains, com uma navbar em sua lateral para acessarmos as outras telas como: cadastro de cliente, configurações, _logout_ e etc.
-Nossas mains fazem sua função de tela home, exibindo em seu painel as deashboards que disponibilizaremos para nossos clientes, e pensando agora em nossos desenvolvedores, para gerirmos a entrada de usuários do sistema, criamos nossa mainAdmin, que será utilizada para fazer a gestão dos usuários com a permissão de utilizar o software.
+Usando linguagem de marcação HTML para aderir os elementos na tela e linguagem de estilização CSS criamos nossas telas semânticas, responsivas e bem estilizadas. Iniciamos com nossa _index_, uma tela de _login_ conectada ao FireBase para fazer a validação das informações passadas pelo usuário, em seguida temos as nossas _mains_, com uma _navbar_ em sua lateral para acessarmos as outras telas como: cadastro de cliente, configurações, _logout_ e etc.
+Nossas _mains_ fazem sua função de tela _Home_, exibindo em seu painel as _Dashboards_ que disponibilizaremos para nossos clientes, e pensando agora em nossos desenvolvedores, para gerirmos a entrada de usuários do sistema, criamos nossa _mainAdmin_, que será utilizada para fazer a gestão dos usuários com a permissão de utilizar o _software_.
 
 
 ## Explorando nosso Projeto
