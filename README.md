@@ -36,11 +36,11 @@ Pensando agora em nossos desenvolvedores, para gerimos a entrada de usuários do
 
 ## Explorando nosso Projeto
 
-- Funcionalidades ADM:
+- `Funcionalidades ADM`:
     - O administrador tem o monitoramento por meios de graficos para saber o número de adiministradores, números de usuários, números de clientes, de usuário e os planos de cada usuário registrado.
-    - o administrador pode adicionar usuário, editar e remover.
+    - O administrador pode adicionar usuário, editar e remover.
 
-- Funcionalidades do Cliente:
+- `Funcionalidades do Cliente`:
     - O cliente consegue visualizar gráficos que mostram a quantidade de usuários cadastrados e os planos de cada cliente.
 
 
@@ -68,15 +68,13 @@ O beck-end da nossa aplicação ingloba tanto na utilização da bliblioteca do 
 #### Retorna: Email, Ramo e Nome. 
 
 
-
-
-
 ## Conclusão
 
 O software de monitoramento de assinaturas de clientes é uma solução robusta e eficaz projetada para acompanhar e analisar o status das assinaturas dos clientes em tempo real. A integração de uma dashboard intuitiva e dinâmica permite que os usuários visualizem dados relevantes de forma clara e concisa, possibilitando uma tomada de decisão mais informada e ágil.
 
 
 ## Autores
+
 Equipe:
 
 - [Thiago Bastos](https://github.com/Thiago-bsts)
